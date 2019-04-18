@@ -17,20 +17,20 @@ Your task is to write a program that can solve a simplified version of this game
 You can use Java, C, C++, Python, or Scala (or ask me for permission to use a different language). Do not use any special libraries. (You can use arrays, lists, sets, maps etc., from the standard libraries, but no special libraries with graph operations.)
 
 As an example, the first level of the Bloxorx game would be represented as a text file level1.txt like this:
-'''
-ooo
-oSoooo
-ooooooooo
--ooooooooo
------ooToo
-------ooo
-'''
+
+> ooo
+> oSoooo
+> ooooooooo
+> -ooooooooo
+> -----ooToo
+> ------ooo
+
 S indicates the start position of the block, T is the goal (target) position of the block. A o or . indicates part of the terrain, a space or a dash is not part of the terrain. We use a coordinate system that has  (0,0)  at the top left corner of the input file, the  x -coordinate increases to the right, the  y -coordinate to the bottom. In our example file, the start position is at  (1,1) , and the goal position is at  (7,4) .
 
 Your program should take the filename of the terrain on the command line, and print a sequence of moves on standard output, using the letters LRUD (for left, right, up, and down). For the file level1.txt, a possible move sequence would be (this is not the shortest sequence):
-'''
-DRRRRRRD
-'''
+
+> DRRRRRRD
+
 You can find a few example terrains for you to examine and to test your program at https://github.com/otfried/cs109-scala/tree/master/bloxorz/simple. (Click on the Raw button for each file to download it.)
 
 Further examples can be found at https://github.com/svtk/hometask6/tree/master/levels.
