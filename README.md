@@ -18,12 +18,12 @@ You can use Java, C, C++, Python, or Scala (or ask me for permission to use a di
 
 As an example, the first level of the Bloxorx game would be represented as a text file level1.txt like this:
 
-> ooo
-> oSoooo
-> ooooooooo
-> -ooooooooo
-> -----ooToo
-> ------ooo
+    ooo
+    oSoooo
+    ooooooooo
+    ooooooooo
+    -----ooToo
+    ------ooo
 
 S indicates the start position of the block, T is the goal (target) position of the block. A o or . indicates part of the terrain, a space or a dash is not part of the terrain. We use a coordinate system that has  (0,0)  at the top left corner of the input file, the  x -coordinate increases to the right, the  y -coordinate to the bottom. In our example file, the start position is at  (1,1) , and the goal position is at  (7,4) .
 
