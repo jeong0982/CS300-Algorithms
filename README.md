@@ -29,7 +29,7 @@ S indicates the start position of the block, T is the goal (target) position of 
 
 Your program should take the filename of the terrain on the command line, and print a sequence of moves on standard output, using the letters LRUD (for left, right, up, and down). For the file level1.txt, a possible move sequence would be (this is not the shortest sequence):
 
-> DRRRRRRD
+    DRRRRRRD
 
 You can find a few example terrains for you to examine and to test your program at https://github.com/otfried/cs109-scala/tree/master/bloxorz/simple. (Click on the Raw button for each file to download it.)
 
